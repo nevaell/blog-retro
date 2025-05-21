@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Retro Blog</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/ikon.jpg"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ceb983;
+      }
+      .header img {
+        height: 310px;
+        width: 90%;
+        display: block;
+        border-radius: 10px;
+        margin: 0 auto;
+      }
+      .content .welcome {
+        text-align: center;
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 2em;
+        color: #a06b49;
+        text-shadow: 1.5px 1.5px #f0e0cf;
+        letter-spacing: 1px;
+        margin-top: 30px;
+      }
+      .content .cd {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .cd img {
+        width: 120px;
+      }
+      .about .image {
+        display: flex;
+        width: 200px;
+      }
+      .about .bio p {
+        width: 35em;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.8;
+      }
+
+      .contact {
+        display: block;
+        margin: -100px 0px 30px 250px;
+      }
+
+      .contact > a {
+        text-decoration: none;
+        margin: 0px 2px;
+        font-size: 18px;
+        color: #000;
+      }
+
+      .content .imut {
+        display: flex;
+        margin-left: 35px;
+        flex-wrap: wrap;
+      }
+      .content .imut img {
+        border-radius: 10px;
+        width: 750px;
+      }
+
+      .footer {
+        background-color: #a06b49;
+        color: #f0e0cf;
+        text-align: center;
+        padding: 15px 0;
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 1em;
+        margin-top: 50px;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="./assets/img/back.jpg" alt="header ikan" />
+    </div>
+    <div class="content">
+      <p class="welcome">✧ Welcome to My BLOG !</p>
+      <div class="cd">
+        <img src="./assets/img/cd.png" alt="cd" />
+        <audio
+          src="./assets/music/adrianne-lenker-anything.mp3"
+          id="music"
+        ></audio>
+      </div>
+      <div class="about">
+        <div class="image">
+          <img
+            src="./assets/img/00c2cc9ed51e3bbf6050cdeba4cbe344-removebg-preview (1).png"
+            style="margin: -94px 45px"
+          />
+          <img
+            src="./assets/img/3ee5fa29fd78dbd387931a7808af7fd2__2_-removebg-preview.png"
+            style="margin: 0px 35px; height: 200px"
+          />
+          <div class="bio">
+            <h3>꩜ About Me ꩜</h3>
+            <p>
+              Hello! My name is Neva Febrina. I’m currently a student at
+              Politeknik Negeri Medan, majoring in Informatics Engineering. I
+              love web design, and I really like cats. My first cat was named
+              Katty, but she passed away right after I got accepted into
+              college.
+            </p>
+
+            <p>
+              I’m the youngest of three siblings, and I’m lucky to have parents
+              who always support and encourage me in everything I do.
+            </p>
+
+            <p>
+              I hope you like this website — because honestly, I didn’t know
+              what else to make 😅.
+            </p>
+
+            <p>
+              My hobbies include swimming, playing badminton, and cycling. I
+              also enjoy collecting weird things like trinkets, fish, and
+              plushies. Most of my money goes to random stuff that probably
+              isn’t important, lol. XOXO 💖
+            </p>
+
+            <p>
+              Lately, I realized that I really like the characters Pingu and
+              Toro. Maybe if I were in an animation, I’d be one of them! They
+              totally represent me — childlike and playful, but still someone
+              who follows the rules. 🐱
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <h4>You can contact Me!</h4>
+        <a href="https://instagram.com/nevafebrina" target="_blank"
+          >Instagram</a
+        >
+        |
+        <!-- <a href="mailto:nevaafebr@gmail.com">Gmail</a> -->
+        <a href="https://x.com/urkattyel" target="_blank">Twitter</a>
+      </div>
+      <div class="imut">
+        <img
+          src="./assets/img/__Laurie_Furnell_Designs-removebg-preview.png"
+          alt="foto"
+        />
+        <img
+          src="./assets/img/goyang.gif"
+          alt="toro"
+          style="width: 200px; margin: auto"
+        />
+
+        <img
+          src="./assets/img/download__2_-removebg-preview.png"
+          alt="toro"
+          style="width: 200px; margin: auto"
+        />
+
+        <img
+          src="./assets/img/4b5ba509f0028ff065731bc4e0a55c21-removebg-preview.png"
+          alt="masak"
+          style="width: 300px; margin-left: 185px"
+        />
+        <h3>꩜ My Favorito Foodies & Drink ꩜</h3>
+
+        <a href="https://youtu.be/YXYjwALuA7c?si=8RnNwkUhfVL1thK2"
+          ><img
+            src="./assets/img/download__3_-removebg-preview.png"
+            alt="spageti"
+            style="width: 220px; margin-top: 20px"
+        /></a>
+
+        <a href="https://youtu.be/PcXc8IJXHWw?si=CAuSt_cAinG5b623"
+          ><img
+            src="./assets/img/9d5302b448d3d1a9cef67b54dac97b9f-removebg-preview.png"
+            alt="pizza"
+            style="width: 200px"
+        /></a>
+
+        <a href="https://youtu.be/o_qSB8vAF5g?si=dBXYAHl79bOW63cq"
+          ><img
+            src="./assets/img/red.png"
+            alt="red velvet"
+            style="width: 200px"
+        /></a>
+
+        <img
+          src="./assets/img/_-removebg-preview.png"
+          alt=""
+          srcset=""
+          style="width: 290px; margin-left: 195px"
+        />
+
+        <h4>꩜ Movie: the one I like ꩜</h4>
+
+        <img
+          src="./assets/img/download (4).jpg"
+          alt=""
+          style="width: 300px; margin-left: 92px; margin-top: -1px"
+        />
+
+        <img
+          src="./assets/img/47a0e6c3494dd8e85f644b893e8be465.jpg"
+          alt=""
+          style="width: 247px; margin-left: 92px; margin-top: -1px"
+        />
+
+        <img
+          src="./assets/img/download__4_-removebg-preview.png"
+          alt=""
+          srcset=""
+          style="width: 523px; margin-left: 175px; margin-top: 25px"
+        />
+
+        <a href="https://www.crazygames.com/t/cooking" target="_blank">
+          <img
+            src="./assets/img/animal.gif"
+            alt=""
+            srcset=""
+            style="width: 520px; margin-left: 175px; margin-top: 25px"
+          />
+        </a>
+
+        <img
+          src="./assets/img/download.gif"
+          alt=""
+          srcset=""
+          style="width: 300px; margin: auto"
+        />
+      </div>
+      <h3 style="text-align: center">꩜ Thank You ꩜</h3>
+    </div>
+    <footer class="footer">
+      <p>© 2025 Neva's Retro Blog · All rights reserved.</p>
+    </footer>
+  </body>
+  <script>
+    const cd = document.querySelector(".cd");
+    const img = cd.querySelector("img");
+    const music = document.querySelector("#music");
+
+    let angle = 0;
+    let isPlaying = false;
+    let animationFrame;
+
+    function rotateCD() {
+      angle += 0.9;
+      img.style.transform = `rotate(${angle}deg)`;
+      animationFrame = requestAnimationFrame(rotateCD);
+    }
+
+    function start() {
+      music.play();
+      rotateCD();
+      isPlaying = true;
+    }
+
+    function stop() {
+      music.pause();
+      cancelAnimationFrame(animationFrame);
+      isPlaying = false;
+    }
+
+    cd.addEventListener("click", () => {
+      if (isPlaying) {
+        stop();
+      } else {
+        start();
+      }
+    });
+  </script>
+</html>
